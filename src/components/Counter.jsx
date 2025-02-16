@@ -10,6 +10,7 @@ const Counter = () => {
             <button className="px-3 py-5 bg-yellow-500" onClick={() => dispatch(decrementByAmount(5))}>
                 Decrement - 5
             </button>
+            {/*  */}
             <button className="px-3 py-5 bg-yellow-500" onClick={() => dispatch(decrement())}>
                 Decrement -
             </button>
@@ -17,6 +18,7 @@ const Counter = () => {
             <button className="px-3 py-5 bg-orange-500" onClick={() => dispatch(increment())}>
                 Increment +
             </button>
+            {/*  */}
             <button className="px-3 py-5 bg-blue-500 text-white" onClick={() => dispatch(incrementByAmount(5))}>
                 Increment + 5
             </button>
